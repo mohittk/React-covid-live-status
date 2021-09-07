@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+body{
+    margin: 3rem;
+    box-sizing: border-box;
+    background: linear-gradient(orange, white, green);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+.tablekahead {
+    font-size: 1.7rem;
+    background-color: rgb(242, 230, 248);
+}
+.tablekibody{
+    font-size: 1.3rem;
+    font-weight: 800;
+    
+  
+    font-family: Poppins;
+
+}
+.main_heading{
+    text-align: center;
+    color: Black;
+    font-family: 'Black Ops One', cursive;
+    font-size: 3.5em;
+    animation: blinker 1s linear infinite;
+  }
+@keyframes blinker {
+    20%{opacity: 10%;}
+}
+td{
+    text-align: left;
+    padding-left: 12px;   
+}
+td:hover{
+    background-color: rgb(167, 164, 164);
+    border-radius: 6px;
+}
+
+/* 
+@supports (backdrop-filter: blur(5px)) {
+    .td:hover {
+      backdrop-filter: blur(5px);
+    }
+  } */
+
+
+th {
+    text-align: left;
+    padding: 8px;
+    font-family: 'Arimo', sans-serif;
+   
+  }
+  
+  tr:nth-child(){
+    background-color: #dddddd;
+  }
